@@ -1,0 +1,81 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.logo{
+    width: 155px;
+}
+
+spam{
+    padding: 0 15px;
+    color: white;
+}
+
+nav{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.esq{
+    display: inline;
+    color: white;
+}
+
+.dir{
+    display: inline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+}
+
+.flyer{
+    width: 100%;
+    min-height: 500px;
+    background-image: url('../img/unrealengine-800x450.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: white;
+}
+
+.content p{
+    margin:15px ;
+    line-height:1.5em;
+    text-indent: 50px;
+    text-align: justify;
+    color: white;
+    
+}
+
+footer{
+    text-align: center;
+    margin:15px 0;
+    padding:15px 0;
+    border-top:2px solid rgb(163, 233, 190);
+    width:80%;
+    margin:0 auto;
+}
+
+.site{
+    text-align: left;
+    margin: 10px 0;
+    padding: 15px 0;
+    color: white;
+}
